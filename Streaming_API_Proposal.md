@@ -2,7 +2,7 @@
 
 ---
 
-## The Problem Today
+## The Current state Today
 
 We currently exchange prescription data with our vendor using **file-based transfers (SFTP)**:
 
@@ -11,7 +11,7 @@ We currently exchange prescription data with our vendor using **file-based trans
 3. We process the entire file (could take minutes to hours)
 4. We generate a response file and send it back via SFTP
 
-### Pain Points
+### Limitations
 
 | Issue | Impact |
 |-------|--------|
