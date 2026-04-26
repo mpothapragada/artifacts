@@ -97,9 +97,9 @@ PROPOSED:
 
 ## Architecture Overview
 
-- **sftp_current_state.png** — Current SFTP file exchange flow  
+- Current SFTP file exchange flow  
   ![sftp_current_state](./sftp_current_state.png)
-- **streaming_target_state.png** — Proposed streaming API with dual response
+- Proposed streaming API with dual response
   ![streaming_target_state](./streaming_target_state.png)
 
 ### Key AWS Services Used
