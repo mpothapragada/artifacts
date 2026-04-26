@@ -46,8 +46,6 @@ PROPOSED:
   ./streaming_target_state.png
 
 
----
-
 ## Business Benefits
 
 ### 1. Faster Error Resolution
