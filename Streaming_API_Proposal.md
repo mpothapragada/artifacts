@@ -36,7 +36,6 @@ Replace the batch file exchange with a **real-time streaming API** — records f
 
 ### How It Works (Simple View)
 
-```
 CURRENT:
   Vendor → [1 GB File / ~1M records] → SFTP → Wait hours → [Response File] → Vendor
   ./sftp_current_state.png 
@@ -45,7 +44,7 @@ PROPOSED:
                                                     ├── Bad?  → Instant reject back to vendor
                                                     └── Good? → Collect into hourly batch → Notify vendor
   ./streaming_target_state.png
-```
+
 
 ---
 
