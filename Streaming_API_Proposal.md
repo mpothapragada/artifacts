@@ -38,13 +38,10 @@ Replace the batch file exchange with a **real-time streaming API** — records f
 
 CURRENT:
   ### Vendor → [1 GB File / ~1M records] → SFTP → Wait hours → [Response File] → Vendor
-  ![sftp_current_state](./sftp_current_state.png)
 PROPOSED:
   ### Vendor → [Record by record] → Streaming API → Validate each one
                                                     ├── Bad?  → Instant reject back to vendor
                                                     └── Good? → Collect into hourly batch → Notify vendor
-  ![streaming_target_state](./streaming_target_state.png)
-
 
 ## Business Benefits
 
@@ -100,10 +97,10 @@ PROPOSED:
 
 ## Architecture Overview
 
-Two architecture diagrams are available in the `streaming-api/arch-diagrams/` folder:
-
-- **cc5_streaming_current_state.png** — Current SFTP file exchange flow
-- **cc5_streaming_target_state.png** — Proposed streaming API with dual response
+- **sftp_current_state.png** — Current SFTP file exchange flow  
+  ![sftp_current_state](./sftp_current_state.png)
+- **streaming_target_state.png** — Proposed streaming API with dual response
+  ![streaming_target_state](./streaming_target_state.png)
 
 ### Key AWS Services Used
 
