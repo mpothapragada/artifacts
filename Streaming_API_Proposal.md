@@ -175,14 +175,12 @@ PROPOSED:
 ---
 
 ## Next Steps
-
-1. **Review this proposal** with architecture and management teams
-2. **Confirm validation rules** — which Redshift tables/checks apply
-3. **Align with vendor** on API adoption timeline
-4. **Approve Phase 1** — prototype is already built and ready to deploy
+1. **Align with vendor** start discussion with vendor on API adoption and technical capabilities of vendor
+2. **Phase 1 — Prototype** | 2 weeks | Build and test internally with mock data |
+3. **Phase 2 — Integration Test** | 2 weeks | Connect to real Redshift data, validate end-to-end |
 
 ---
 
 ## Questions?
 
-The prototype is built and ready for demo. Architecture diagrams, working code, and interactive dashboard are all available for review.
+
